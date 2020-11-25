@@ -7,7 +7,7 @@
     "isWayBackLink" : "false",
     "match" : "true",
     "order" : "0",
-    "timestamp" : "2020-11-24 - 20:48:57",
+    "timestamp" : "2020-11-25 - 16:24:15",
     "url" : "https://www.mongodb.com/licensing/server-side-public-license"
   }, {
     "@id" : "http://spdx.org/licenses/SSPL-1.0",
@@ -44,10 +44,6 @@
     "url" : {
       "@id" : "http://spdx.org/rdf/terms#url"
     },
-    "crossRef" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
-      "@type" : "@id"
-    },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
@@ -71,6 +67,10 @@
     },
     "comment" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "crossRef" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
+      "@type" : "@id"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",
