@@ -2,23 +2,23 @@
   "@graph" : [ {
     "@id" : "_:b0",
     "@type" : "spdx:CrossRef",
-    "isLive" : "true",
-    "isValid" : "true",
-    "isWayBackLink" : "false",
-    "match" : "true",
-    "order" : "1",
-    "timestamp" : "2020-11-25 - 16:22:13",
-    "url" : "https://javaee.github.io/glassfish/LICENSE"
-  }, {
-    "@id" : "_:b1",
-    "@type" : "spdx:CrossRef",
     "isLive" : "false",
     "isValid" : "true",
     "isWayBackLink" : "false",
     "match" : "false",
     "order" : "0",
-    "timestamp" : "2020-11-25 - 16:22:12",
+    "timestamp" : "2020-11-25 - 21:53:44",
     "url" : "http://glassfish.java.net/public/CDDL+GPL_1_1.html"
+  }, {
+    "@id" : "_:b1",
+    "@type" : "spdx:CrossRef",
+    "isLive" : "true",
+    "isValid" : "true",
+    "isWayBackLink" : "false",
+    "match" : "true",
+    "order" : "1",
+    "timestamp" : "2020-11-25 - 21:53:45",
+    "url" : "https://javaee.github.io/glassfish/LICENSE"
   }, {
     "@id" : "http://spdx.org/licenses/CDDL-1.1",
     "@type" : "spdx:License",
@@ -52,6 +52,10 @@
     "url" : {
       "@id" : "http://spdx.org/rdf/terms#url"
     },
+    "crossRef" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
+      "@type" : "@id"
+    },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
     },
@@ -63,10 +67,6 @@
     },
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"
-    },
-    "crossRef" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
-      "@type" : "@id"
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
